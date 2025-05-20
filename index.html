@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adwait</title>
+    <link rel="icon" href="Images/cube.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </div>
+    
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">Adwait <span>Salankar</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span>Adwait</span></h1>
+                <h2 class="hero-subtitle">CS in Data Science at RCOEM</h2>
+                <p class="hero-text">Tech Enthusiast with expertise in Java, Python, AI/ML, Data Structures & Algorithms.</p>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="Images/profilephoto.jpeg" alt="Alex Creative" class="profile-img">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" class="fas fa-chevron-down"></a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-image">
+                <img src="https://camo.githubusercontent.com/2366b34bb903c09617990fb5fff4622f3e941349e846ddb7e73df872a9d21233/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" alt="About Alex">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p>I am a pre-final year Computer Science (Data Science) student, passionate about Machine Learning, Deep Learning, and Software Development.</p>
+                <p>I enjoy building innovative solutions and tackling real-world problems.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>4+</h3>
+                        <p>Years in coding</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>300+</h3>
+                        <p>Questions on DSA</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100k+</h3>
+                        <p>Lines of Code</p>
+                    </div>
+                    
+                </div>
+                <p>Apart from coding, I'm a pro footballer and a passionate canvas painter.</p>
+                <a href="https://drive.google.com/file/d/1K672WXkM1Mql192yIlix1BCmNV5aKyK_/view?usp=sharing" class="btn btn-primary" target="_blank">Get Resume</a>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <h2 class="section-title">My <span>Work</span></h2>
+            <div class="work-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Machine Learning">ML</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="web-game">Game</button>
+            </div>
+            <div class="work-grid">
+                <!-- In js -->
+            </div>
+        </section>
+
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-item">
+                        <p>Python</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Java</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>C/C++</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>MySQL</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tech</h3>
+                    <div class="skill-item">
+                        <p>Data Structures and Algorithms</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Object-Oriented Programming</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Data Science</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Git</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML</h3>
+                    <div class="skill-item">
+                        <p>Machine Learning</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Neural Networks</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>CNN, Chatbots</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <p>Computer Vision</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-box">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>salankar.adwait@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p onclick="this.innerText='+91 7218108896'; this.style.cursor='default';">Click to Reveal</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Nagpur, Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/AdwaitSalankar"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/adwaitsalankar/"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:salankar.adwait@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/_adwait_s/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Adwait</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
