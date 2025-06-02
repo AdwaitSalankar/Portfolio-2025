@@ -100,11 +100,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 4,
-            title: 'Sentiment-Analysis-using-BERT',
+            title: 'FoodieSpot',
             category: 'Machine Learning',
-            description: 'Sentiment analysis on SMILE Twitter dataset using the BERT model.',
-            image: 'Images/sentiment-photo.png',
-            link: 'https://github.com/AdwaitSalankar/Sentiment-Analysis-using-BERT/blob/main/(2)%20Sentiment_Analysis_with_Deep_Learning_using_BERT.ipynb'
+            description: 'Conversational AI-powered dining assistant that helps users to Make / Modify / Cancel a reservation.',
+            image: 'Images/foodiespot-photo.png',
+            link: 'https://github.com/AdwaitSalankar/FoodieSpot-Reservation-Assistant'
         },
         {
             id: 5,
